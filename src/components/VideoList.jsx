@@ -1,5 +1,8 @@
-var VideoList = () => (
-  <div className="video-list media">
+var VideoList = (props) => (
+
+  //props.videoData = exampleVideoData
+  //console.log(props);
+  <div className="test">
     <VideoListEntry />
     <VideoListEntry />
     <VideoListEntry />
@@ -11,7 +14,7 @@ var VideoList = () => (
     <VideoListEntry />
   </div>
 );
-
+//console.log("hello");
 // PropTypes tell other developers what `props` a component expects
 // Warnings will be shown in the console when the defined rules are violated
 VideoList.propTypes = {

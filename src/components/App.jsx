@@ -3,6 +3,7 @@ var App = () => (
     <Nav />
     <div className="col-md-7">
       <VideoPlayer/>
+      <div>hello</div>
     </div>
     <div className="col-md-5">
       <VideoList/>
