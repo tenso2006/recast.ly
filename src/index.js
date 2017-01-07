@@ -2,3 +2,4 @@
 
 
 ReactDOM.render(<App />, document.getElementById('app'));
+//ReactDOM.render(<VideoList />, document.getElementById('app'));
