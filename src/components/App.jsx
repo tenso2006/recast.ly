@@ -3,8 +3,8 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      currentVideo: props.video[0],
-      videos: props.video
+      currentVideo: exampleVideoData[0],
+      videos: exampleVideoData
     };
   }
   componentDidMount() {
