@@ -1,4 +1,4 @@
-var searchYouTube = ({key, query, max = 5}, callback) => {
+var searchYouTube = ({key, query, max = 5 }, callback) => {
   //get the link from https://developers.google.com/youtube/v3/docs/search/list
   $.get('https://www.googleapis.com/youtube/v3/search', {
     part: 'snippet',

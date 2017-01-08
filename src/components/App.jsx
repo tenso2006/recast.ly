@@ -36,7 +36,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <Nav handleSearchInput={this.getYouTubeVideos.bind(this)}/>
+        <Nav handleSearchInputChange={this.getYouTubeVideos.bind(this)}/>
         <div className="col-md-7">
           <VideoPlayer video={this.state.currentVideo}/>
         </div>
